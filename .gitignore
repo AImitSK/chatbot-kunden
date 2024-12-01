@@ -1,0 +1,50 @@
+# Ignore node_modules folder
+**/node_modules/
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore build directories
+**/build/
+**/dist/
+**/.next/
+**/out/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore Tailwind CSS output
+**/tailwind.output.css
+
+# Ignore sanity generated files
+**/sanity-exports/
+**/.sanity/
+
+# Ignore specific IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+
+# Ignore GitHub workflow files (if not needed)
+.github/
